@@ -1,0 +1,6 @@
+1.在GUI中编写脚本，保存为jmx文件之后，在命令行里执行jmx文件。jmeter命令只能在bin目录下使用，所以我保存在demo里的jmx文件，
+要添加一个目录：demo\baidu.jmx
+D:\jmeter\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin>jmeter -n -t demo\baidu.jmx -l demo\baidu.jtl
+生成的日志文件在demo目录下，名字为：baidu.jtl
+
+2.在GUI中，添加查看结果树和聚合报告，上传生成的日志文件，即可查看。

@@ -2,5 +2,6 @@
 要添加一个目录：demo\baidu.jmx
 D:\jmeter\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin>jmeter -n -t demo\baidu.jmx -l demo\baidu.jtl
 生成的日志文件在demo目录下，名字为：baidu.jtl
+（-n 非GUI模式，-t 测试文件，-l 日志文件）
 
 2.在GUI中，添加查看结果树和聚合报告，上传生成的日志文件，即可查看。

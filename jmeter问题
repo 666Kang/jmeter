@@ -1,7 +1,13 @@
 1.在GUI中编写脚本，保存为jmx文件之后，在命令行里执行jmx文件。jmeter命令只能在bin目录下使用，所以我保存在demo里的jmx文件，
-要添加一个目录：demo\baidu.jmx
-D:\jmeter\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin>jmeter -n -t demo\baidu.jmx -l demo\baidu.jtl
-生成的日志文件在demo目录下，名字为：baidu.jtl
-（-n 非GUI模式，-t 测试文件，-l 日志文件）
+  要添加一个目录：demo\baidu.jmx
+  D:\jmeter\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin>jmeter -n -t demo\baidu.jmx -l demo\baidu.jtl
+  生成的日志文件在demo目录下，名字为：baidu.jtl
+  （-n 非GUI模式，-t 测试文件，-l 日志文件）
 
 2.在GUI中，添加查看结果树和聚合报告，上传生成的日志文件，即可查看。
+
+3.线程组的Ramp-Up时间，是指线程数需要多长时间来启动。比如现在线程数为200，Ramp-Up时间为10，
+  意思就是要在10s中内启动这200个线程，平均一秒钟启动20个。
+
+
+
